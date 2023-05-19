@@ -1,0 +1,23 @@
+name: Docker Compose CI
+
+on:
+    push:
+        branches: ['master']
+    pull_request:
+        branches: ['master']
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v2
+            - name: Start services with docker-compose
+              run: |
+                  docker-compose -f docker-compose.yaml up -d
+                  docker-compose -f docker-compose.yaml ps
+            - name: Run tests against the services
+              run: |
+                  # Run some tests against the services
+                  # For example, you could use curl or a testing framework
+            - name: Stop services with docker-compose
+              run: docker-compose -f docker-compose.yaml down
