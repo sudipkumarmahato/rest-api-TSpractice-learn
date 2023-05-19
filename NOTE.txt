@@ -1,0 +1,3 @@
+
+ts-node is a TypeScript execution engine for Node. js. It allows you to run our TypeScript code directly without precompiling our TypeScript code to JavaScript. ts-node transforms TypeScript to JavaScript in-memory without writing it to disk. Large projects may still take some time to process.
+
