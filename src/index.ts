@@ -30,7 +30,9 @@ mongoose
   .connect(db)
   .then(() => {
     server.listen(port, () => {
-      console.log(`Server listening on port ${port}`);
+      console.log(
+        `DB Connected and Server listening on port ${port} Successfully`
+      );
     });
   })
   .catch((err) => {
