@@ -5,12 +5,9 @@
 
 version: 2
 updates:
-  - package-ecosystem: ''
-    directory: /
-    schedule:
-      interval: weekly
-open-pull-requests-limit: 3
-reviewers:
-  - 1234sudipmahato@gmail.com
-assignees:
-  - 1234sudipmahato@gmail.com
+    - package-ecosystem: ''
+      directory: /
+      schedule:
+          interval: weekly
+          time: '23:00'
+          days: ['friday']
