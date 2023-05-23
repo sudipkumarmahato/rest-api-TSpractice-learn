@@ -5,12 +5,12 @@
 
 version: 2
 updates:
-  - package-ecosystem: "" # See documentation for possible values
-    directory: "/" # Location of package manifests
+  - package-ecosystem: ''
+    directory: /
     schedule:
-      interval: "weekly"
+      interval: weekly
 open-pull-requests-limit: 3
-    reviewers:
-      - 1234sudipmahato@gmail.com
-    assignees:
-      - 1234sudipmahato@gmail.com
+reviewers:
+  - 1234sudipmahato@gmail.com
+assignees:
+  - 1234sudipmahato@gmail.com
