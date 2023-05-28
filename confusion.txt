@@ -1,3 +1,8 @@
 
 ts-node is a TypeScript execution engine for Node. js. It allows you to run our TypeScript code directly without precompiling our TypeScript code to JavaScript. ts-node transforms TypeScript to JavaScript in-memory without writing it to disk. Large projects may still take some time to process.
 
+
+The mongo-sanitize package is a library that can be used to sanitize data before it is sent to MongoDB. This can help to prevent security vulnerabilities, such as query selector injection attacks. The package is easy to use and can be integrated into any Node.js application.
+The sanitize() function will remove any keys that start with '$' from the input data. This means that if a malicious user tries to enter a query selector into the username field, it will be removed before the data is sent to MongoDB.
+
+The mongo-sanitize package is a simple and easy way to improve the security of our Node.js applications. If you are using MongoDB, I recommend that you use this package to sanitize any data that you send to the database.
