@@ -9,6 +9,7 @@ import morgan from 'morgan';
 import dotenv from 'dotenv';
 dotenv.config();
 
+import router from './routes';
 const app = express();
 
 app.use(
@@ -38,6 +39,9 @@ mongoose
     .catch((err) => {
         console.log(err);
     });
+
+
+app.use("/", router())
 
 // server.listen(port, () => {
 //   console.log(`Server listening on port ${port}`);
