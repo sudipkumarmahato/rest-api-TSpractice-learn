@@ -28,7 +28,7 @@
     "joi": "^17.9.2",
     "lodash": "^4.17.21",
     "mongo-sanitize": "^1.1.0",
-    "mongoose": "^7.1.2",
+    "mongoose": "^7.3.3",
     "morgan": "^1.10.0",
     "pino": "^8.14.1",
     "prettier": "^2.8.8",
